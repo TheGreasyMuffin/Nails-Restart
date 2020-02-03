@@ -1,0 +1,41 @@
+/*-----------------header/footer-------------------*/
+.navbar {
+    margin: 0px;
+    padding: 5px 20px;
+}
+
+.fab {
+font-size: 35px;
+color: rgba(189, 33, 106, 0.808);
+padding-bottom: 20px;
+}
+/*-----------------header/footer-------------------*/
+
+/*-----------------home----------------------------*/
+/*-----------------body----------------------------*/
+.callout-background {
+   height: 100vh;
+   background: url(../images/background.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+}
+/*-----------------body----------------------------*/
+
+/*-----------------jumbotron----------------------------*/
+.jumbotron {
+    margin: auto;
+    background-color: transparent;
+}
+/*-----------------jumbotron----------------------------*/
+/*-----------------home----------------------------*/
+
