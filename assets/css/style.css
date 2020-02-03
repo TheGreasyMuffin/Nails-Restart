@@ -1,7 +1,64 @@
-/*-----------------header/footer-------------------*/
+@import url('https://fonts.googleapis.com/css?family=Righteous:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Signika:100,200,300,400,500,600,700|Source+Sans+Pro&display=swap:100,200,300,400,500,600,700');
+/* 
+font-family: 'Righteous', cursive;
+font-family: 'Signika', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+/*-----------------header-------------------*/
 .navbar {
     margin: 0px;
-    padding: 5px 20px;
+    padding: 1px;
+}
+
+.nav-design {
+    background-color: rgb(189, 33, 106);
+}
+
+.navbar-brand {
+    padding-left: 5px;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    padding: 2px;
+    margin: 0px 20px 0px 0px;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    background-color: rgb(114, 29, 76);
+    color: rgb(97, 97, 97);
+    border-color: rgb(97, 97, 97);
+    border-radius: 15px;
+}
+
+.navbar-toggler {
+    background-color: rgb(148, 34, 97);
+}
+
+.nav-link {
+    font-family: 'Signika', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    height: 30px; 
+    width: 68px;
+    line-height: 15px;
+    margin-left: 25px;
+    margin-top: 6px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(148, 34, 97);
+    border: solid 1px grey;
+    color: grey;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+background-color: rgb(114, 29, 76);
+color: rgb(97, 97, 97);
+border-color: rgb(97, 97, 97);
 }
 
 .fab {
@@ -9,9 +66,23 @@ font-size: 35px;
 color: rgba(189, 33, 106, 0.808);
 padding-bottom: 20px;
 }
-/*-----------------header/footer-------------------*/
+/*-----------------header-------------------*/
+
+/*-----------------footer-------------------*/
+.fab {
+font-size: 35px;
+color: rgba(189, 33, 106, 0.808);
+padding-bottom: 20px;
+transition: 0.3s ease-in-out;
+}
+
+.fab:hover {
+   color: rgb(114, 29, 76);
+}
+/*-----------------footer-------------------*/
 
 /*-----------------home----------------------------*/
+
 /*-----------------body----------------------------*/
 .callout-background {
    height: 100vh;
@@ -34,8 +105,41 @@ padding-bottom: 20px;
 /*-----------------jumbotron----------------------------*/
 .jumbotron {
     margin: auto;
-    background-color: transparent;
+    background-color: rgba(255, 192, 203, 0.233);
+}
+
+.jumbo-head {
+    color: rgb(37, 37, 37);   
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+      text-shadow:
+		-1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
+
+}
+
+.lead {
+    font-weight: 500;
+     color: rgb(37, 37, 37);   
+    font-family: 'Signika', sans-serif;
+      text-shadow:
+		-1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
 }
 /*-----------------jumbotron----------------------------*/
 /*-----------------home----------------------------*/
 
+
+/*-----------------media queries----------------------------*/
+@media (max-width: 992px) {
+
+    .nav-link{
+   padding: auto;
+    margin: 4px 0px 4px 10px;
+    }
+/*-----------------media queries----------------------------*/
