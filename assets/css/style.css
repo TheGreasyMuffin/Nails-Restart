@@ -192,6 +192,33 @@ transition: 0.3s ease-in-out;
 }
 /*-----------------card----------------------------*/
 
+/*-----------------find us----------------------------*/
+.map-container {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.map-container h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: rgb(240, 166, 230);
+    font-weight: 600;
+}
+
+.map-container p {
+    color: rgb(240, 166, 230);
+}
+
+.map-container iframe {
+    border: 3px solid pink;
+}
+/*-----------------find us----------------------------*/
+
+/*-----------------map----------------------------*/
+
+
+/*-----------------map----------------------------*/
+
 
 /*-----------------media queries----------------------------*/
 @media (max-width: 992px) {
