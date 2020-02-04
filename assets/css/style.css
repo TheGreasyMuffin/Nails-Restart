@@ -13,7 +13,7 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Permanent Marker', cursive;
 */
 
-/*-----------------header-------------------*/
+/*-----------------nav-------------------*/
 .navbar {
     margin: 0px;
     padding: 1px;
@@ -53,7 +53,8 @@ font-family: 'Permanent Marker', cursive;
 }
 
 .navbar-toggler {
-    background-color:  rgb(240, 166, 230);
+    background-color: transparent;
+    border: 1px solid rgb(240, 166, 230);
     margin-right: 20px;
 }
 
@@ -91,7 +92,7 @@ padding-bottom: 20px;
     text-align: center;
     color: black;
 }
-/*-----------------header-------------------*/
+/*-----------------nav-------------------*/
 
 /*-----------------footer-------------------*/
 .fab {
@@ -218,13 +219,13 @@ transition: 0.3s ease-in-out;
 
 /*-----------------contact---------------------------*/
 .contact-form-container {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 80px
 } 
 
 .contact-form-container h1  {
      font-family: 'Dancing Script', cursive;
-    font-size: 80px;
+    font-size: 36px;
     color: rgb(240, 166, 230);
     font-weight: 600;
     margin-bottom: 40px;
@@ -266,4 +267,9 @@ transition: 0.3s ease-in-out;
     height: 1px;
     width: 200px;
 }
+
+.contact-form-container {
+    margin-top: 100px;
+    margin-bottom: 80px
+} 
 /*-----------------media queries----------------------------*/
