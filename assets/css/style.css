@@ -24,8 +24,8 @@ font-family: 'Permanent Marker', cursive;
 }
 
 .navbar-brand {
- font-family: 'Indie Flower', cursive;
-    color:  rgb(0, 0, 0);
+   font-family: 'Dancing Script', cursive;
+   color:  rgb(0, 0, 0);
    background-color: rgb(148, 96, 141);
    padding: 3px;
    margin-right: 50px;
@@ -191,6 +191,10 @@ transition: 0.3s ease-in-out;
 .grey-background {
     background-color:rgb(78, 59, 90);
 }
+
+.card-img-top {
+    height: 350px;
+}
 /*-----------------card----------------------------*/
 
 /*-----------------find us----------------------------*/
@@ -220,7 +224,8 @@ transition: 0.3s ease-in-out;
 /*-----------------contact---------------------------*/
 .contact-form-container {
     margin-top: 200px;
-    margin-bottom: 80px
+    margin-bottom: 80px;
+    max-width: 875px
 } 
 
 .contact-form-container h1  {
