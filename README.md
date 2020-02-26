@@ -85,3 +85,21 @@ Why? -- To make sure that the website functions properly and is user friendly gi
 
 ---------
 
+Deployment:
+
+---------
+
+Credits: 
+
+Content:- 
+All the content is my own apart from the text within the cards on the image gallery. 
+This is the default text provided by bootstrap. 
+
+Media:- 
+The photos used are from my girlfriend and also a google image search for free images 
+relatiing to the project. Also the map is courtesy of google maps embedding system. 
+
+Acknowledgements:- 
+I used my girlfriends idea of starting her own nail buisness into designing the a web-
+site for her business although she probably isn't going to be using it as she isn't 
+qualified; she gave me the inspiration. 
