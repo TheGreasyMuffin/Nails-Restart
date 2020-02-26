@@ -102,6 +102,10 @@ transition: 0.3s ease-in-out;
 .fixed-bottom {
     background-color:  rgb(148, 96, 141);
 }
+
+.footer-push {
+    height: 50px;
+}
 /*-----------------footer-------------------*/
 
 
@@ -207,6 +211,10 @@ transition: 0.3s ease-in-out;
 
 .map-container iframe {
     border: 3px solid pink;
+}
+
+.address-container {
+    padding-top: 25px;
 }
 /*-----------------find us----------------------------*/
 
