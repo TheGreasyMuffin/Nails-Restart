@@ -87,6 +87,11 @@ Why? -- To make sure that the website functions properly and is user friendly gi
 
 Deployment:
 
+The overall deployment of the project was relativly simple as I used git hub pages, as I've been using git pod to develop my website this just felt to fit hand in hand. 
+
+The main difference between the project before it was deployed and now is that I had taken advice from my student mentor who really helped point me in the right direction, 
+of clearing up my code and making the overall feel of the website nicer. 
+
 ---------
 
 Credits: 
